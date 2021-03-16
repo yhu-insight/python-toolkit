@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # Python script to Process DateTime
-# Author - HoneyMoose
+# Author - yucheng.hu@insight.com
 
 import datetime
 
