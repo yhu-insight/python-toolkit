@@ -1,4 +1,4 @@
-# # python-toolkit
+# python-toolkit
 
 Author: [yucheng.hu@insight.com](mailto:yucheng.hu@insight.com)
 
