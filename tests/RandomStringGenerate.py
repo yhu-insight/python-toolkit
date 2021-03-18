@@ -10,6 +10,7 @@ from random import choice
 def random_password(length, printable):
     """
     Provides a random password of the given length.
+    :param printable: The string for Random String
     :param int length: The length of the password to generate.
     """
 
