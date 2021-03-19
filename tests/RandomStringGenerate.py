@@ -4,7 +4,7 @@
 # Author - yucheng.hu@insight.com
 
 import string
-from random import choice
+import random
 
 
 def random_password(length, printable):
@@ -14,7 +14,7 @@ def random_password(length, printable):
     :param int length: The length of the password to generate.
     """
 
-    return "".join([choice(printable) for x in range(int(length))])
+    return "".join([random.choice(printable) for x in range(int(length))])
 
 
 if __name__ == "__main__":
@@ -29,3 +29,8 @@ for i in range(1, amount + 1):
 print('')
 for i in range(1, amount + 1):
     print(f"   Random String [Ascii Uppercase String]: {i} - {repr(random_password(number, string.ascii_uppercase))} ")
+
+# choices Function Test
+print('')
+my_list = ["apple", "banana", "cherry"]
+print(random.choices(my_list, weights=[10, 1, 1], k=12))
