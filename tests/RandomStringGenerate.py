@@ -3,8 +3,8 @@
 # Python Random String Password
 # Author - yucheng.hu@insight.com
 
-import string
 import random
+import string
 
 
 def random_password(length, printable):
