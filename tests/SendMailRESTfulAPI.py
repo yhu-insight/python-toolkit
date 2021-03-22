@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Python Random String Password
+# Python Send Email by API Request
 # Author - yucheng.hu@insight.com
 
 import requests
