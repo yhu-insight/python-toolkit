@@ -1,8 +1,9 @@
 yfinance==0.1.54
 
-python-dateutil~=2.8.1
-setuptools~=54.0.0
+python-dateutil
+setuptools
 ruamel.yaml
 qrcode
 Pillow
 pyautogui
+requests
